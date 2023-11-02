@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plano de Carreira em TI</title>
+    <style>
+        /* Estilos gerais */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            position: relative;
+            background-color: #4CAF50; /* Cor de fundo */
+        }
+
+        header {
+            background-color: #007BFF;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: #ffffff; /* Fundo branco */
+            border: 1px solid #007BFF; /* Borda azul */
+            transition: transform 0.3s;
+            cursor: pointer;
+        }
+
+        section:hover {
+            transform: scale(1.05);
+        }
+
+        section:hover p {
+            font-weight: bold;
+        }
+
+        ol, ul {
+            list-style-type: decimal;
+        }
+
+        /* Estilos para o footer */
+        footer {
+            text-align: center;
+            background-color: #007BFF;
+            color: white;
+            padding: 10px;
+        }
+
+        /* Estilos para o pop-up */
+        .popup {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #4CAF50; /* Cor de fundo verde */
+            color: white;
+            padding: 20px;
+            text-align: center;
+            transform: translateY(-100%); /* Inicialmente, fora da tela */
+            transition: transform 0.5s;
+        }
+
+        .popup.show {
+            transform: translateY(0);
+        }
+
+        /* Responsividade */
+        @media screen and (max-width: 768px) {
+            section {
+                padding: 10px;
+                margin: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Plano de Carreira em TI</h1>
+    </header>
+
+    <section id="passos">
+        <h2>Passos do Plano de Carreira</h2>
+        <ol>
+            <li><p>Focar em Java e Programação Orientada a Objetos.</p></li>
+            <li><p>Migrar para Dart com ênfase no Flutter.</p></li>
+            <li><p>Cursar inglês técnico.</p></li>
+            <li><p>Especialização em Dart (se relevante).</p></li>
+            <li><p>Explorar novas tecnologias, como Python e Desenvolvimento de Games.</p></li>
+            <li><p>Explorar a linguagem C# da Microsoft.</p></li>
+            <li><p>Ser especialista em uma área, mas estar ciente do que está acontecendo na TI.</p></li>
+        </ol>
+    </section>
+
+    <section id="plano-curriculo">
+        <h2>Plano de Currículo</h2>
+        <ul>
+            <li><p>Criar um perfil no LinkedIn.</p></li>
+            <li><p>Manter seu perfil no GitHub atualizado com projetos e documentação.</p></li>
+            <li><p>Participar de grupos de estudos e comunidades online.</p></li>
+        </ul>
+    </section>
+
+    <section id="pos-graduacao">
+        <h2>Plano de Pós-Graduação</h2>
+        <ol>
+            <li><p>Pós-Graduação em Engenharia de Software para Dispositivos Móveis (Unitter).</p></li>
+            <li><p>Pós-Graduação em Desenvolvimento de Sistemas com JAVA (Unicesumar).</p></li>
+        </ol>
+    </section>
+
+    <footer>
+        <p>Gerson Ferreira</p>
+        <p>2023</p>
+    </footer>
+
+    <div class="popup" id="welcome-popup">
+        <h2>Olá Gerson, Vamos Continuar!</h2>
+    </div>
+
+    <script>
+        // Exibir o pop-up de boas-vindas após 6 segundos
+        setTimeout(function() {
+            var welcomePopup = document.getElementById("welcome-popup");
+            welcomePopup.classList.add("show");
+
+            // Ocultar o pop-up de boas-vindas após 4 segundos
+            setTimeout(function() {
+                welcomePopup.classList.remove("show");
+            }, 4000);
+        }, 6000);
+    </script>
+</body>
+</html>

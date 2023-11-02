@@ -1,0 +1,29 @@
+                                             Carreira De Ti 
+
+Passo 1 - Focar em java me sentir confortavel com a linguagem, sitaxe principalmente com POO(orientação a obejtos).
+
+passo 2 - Migrar para Dart Linguagem Dart o Passo 1 é muito importante pois voce usara varios conceitos em novas linguagens, com Dart focar 
+em mobile e web, devo ser capaz de criar apps android web, IOS, tres platformas distintas. (Dar enfase na Framework Flutter)
+
+Passo 3 - Curso de ingles (pelo menos ingles tecnico).
+
+passo 4 - Especialização em Dart (caso ela ainda seja relevante no mercado).
+
+passo 5 - Nao ficar presso em Dart explorar novas teconologias(phthon, Desenvimentos de Games com Godot ou UNitty). 
+
+Passo 6 - caso o passo 5 nao seja relevante explore a linguagem c# da Gigante Microsoft.
+
+Passo 7 - Nao queira saber tudo kkkk, seja especialista em coisa mas saiba que oque existe, oque esta acontencendo. Sendo Especialista nao tera
+problemas com outras linguagens.                                   
+                                      Plano de Curriculo 
+Passo 1 - Criar Linkedin
+Passo 2 - GitHUb Atualizado com projetos e docomentação dos projetos
+passo 3 - Focar na comunidade grupos de estudos( sem muitos cursos focar na sequencia da carreira).                             
+               
+                                     PLano de pos Graduação 
+
+opçao 1 - Pós-Graduação Engenharia de Software para Dispositivos Móveis (Unitter)
+opção 2 - Pós-Graduação em Desenvolvimento de Sistemas com JAVA (Unicesumar)
+
+
+
